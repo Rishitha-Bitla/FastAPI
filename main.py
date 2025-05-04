@@ -1,5 +1,6 @@
 from fastapi import FastAPI, Request, status
-from . import models
+# from . import models
+import models
 from .database import Base
 
 from .database import engine
